@@ -1,4 +1,4 @@
-import main from '../assets/images/main.svg'
+import main from '../assets/images/main-alternative.svg'
 import Wrapper from '../assets/wrappers/LandingPage'
 import { Logo } from '../components'
 import { Link } from 'react-router-dom'
@@ -15,10 +15,8 @@ const Landing = () => {
             job <span>tracking</span> app
           </h1>
           <p>
-            I'm baby wayfarers hoodie next level taiyaki brooklyn cliche blue
-            bottle single-origin coffee chia. Aesthetic post-ironic venmo,
-            quinoa lo-fi tote bag adaptogen everyday carry meggings +1 brunch
-            narwhal.
+          No more setting reminder .No more messy job search spreadsheets.<br/>
+          All in one spot, track your job applications and maintain organisation for your employment search. Keep tabs on the firm, position, location of the job, the status of your application and more.
           </p>
           <Link to='/register' className='btn btn-hero'>
             Login/Register
